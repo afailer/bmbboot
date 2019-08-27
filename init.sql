@@ -26,7 +26,7 @@ create table if not exists content(
     user_id bigint ,
     title varchar(30),
     content_type varchar(10),
-    icon varchar(100),
+    icon varchar(500),
     content text,
     btn_info varchar(100),
     create_time bigint,
